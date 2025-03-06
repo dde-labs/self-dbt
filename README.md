@@ -2,6 +2,10 @@
 
 Self Sandbox for create best practice of DBT.
 
+> [!NOTE]
+> I will implement duckdb and dbt with [`dbt-duckdb`](https://github.com/duckdb/dbt-duckdb)
+> package.
+
 ## Prerequisite
 
 ```shell
