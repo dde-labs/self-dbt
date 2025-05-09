@@ -14,12 +14,22 @@ Self Sandbox that implement with the best practice of DBT project.
 
 ## Prerequisite
 
+### Initial
+
 ```shell
 dbt init lakehouse --profiles-dir . --project-dir .
-cd lakehouse
-dbt run
+ls -al ./lakehouse
 ```
+
+### Build & Run
 
 ```shell
 dbt build --project-dir ./lakehouse --profiles-dir ./lakehouse
+dbt run --project-dir ./lakehouse --profiles-dir ./lakehouse
+```
+
+### Compile
+
+```shell
+dbt compile --inline "select * from {{ ref('demo_model') }}" --project-dir ./lakehouse --profiles-dir ./lakehouse
 ```
