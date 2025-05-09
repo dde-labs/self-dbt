@@ -15,7 +15,11 @@ Self Sandbox that implement with the best practice of DBT project.
 ## Prerequisite
 
 ```shell
-dbt init dbt_app --profiles-dir . --project-dir .
-cd dbt_app
+dbt init lakehouse --profiles-dir . --project-dir .
+cd lakehouse
 dbt run
+```
+
+```shell
+dbt build --project-dir ./lakehouse --profiles-dir ./lakehouse
 ```

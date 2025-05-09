@@ -1,11 +1,7 @@
----
-icon: simple/dbt
----
-
 # DBT
 
 **DBT (Data Build Tool)** is an open-source tool (Core version) used for transforming
-workflows, using SQL scripts (.sql)and YAML scripts (.yml).
+workflows, using SQL scripts (.sql) and YAML scripts (.yml).
 
 - https://datarockie.com/blog/dbt/
 
